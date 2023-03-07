@@ -107,7 +107,7 @@
                         <div class="pl-lg-4">
                             <div class="row">
                                 <div class="col text-center">
-                                    <button type="submit" class="btn btn-primary">Save</button>
+                                    <button type="submit" class="btn btn-primary">Simpan</button>
                                     <a href="{{ route('home') }}" class="btn btn-default">Kembali</a>
                                 </div>
                             </div>

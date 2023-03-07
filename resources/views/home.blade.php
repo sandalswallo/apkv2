@@ -256,12 +256,12 @@
         
     <div class="row">
         <div class="col-md-3 col-12">
-            <a href="{{ url('/home/generate-data') }}" class="btn btn-primary mb-2" style="background-color: #7e6100ef; color: white;">Cetak Data</a>
+            <a href="{{ url('/home/generate-data') }}" class="btn btn-primary mb-2" style="background-color: #0084ffef; color: white;">Cetak Data</a>
         </div>
         <div class="col-12">
             <table class="table table-bordered table-stripped">
                 <thead>
-                    <tr style="background-color: #7e6100ef; color: white;">
+                    <tr style="background-color: #0084ffef; color: white;">
                         <th>No</th>
                         <th>Kode Invoice</th>
                         <th>Pelanggan</th>

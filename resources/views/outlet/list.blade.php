@@ -6,7 +6,7 @@
 
 <!-- Main Content goes here -->
 
-<a href="{{ route('outlet.create') }}" class="btn btn-primary mb-3" style="background-color: #7e6100ef; color: white;">Tambah Outlet</a>
+<a href="{{ route('outlet.create') }}" class="btn btn-primary mb-3" style="background-color: #0084ffef; color: white;">Tambah Outlet</a>
 
 @if (session('message'))
 <div class="alert alert-success">
@@ -16,12 +16,12 @@
 
 <table class="table table-bordered table-stripped">
     <thead>
-        <tr style="background-color: #7e6100ef; color: white;">
+        <tr style="background-color: #0084ffef; color: white;">
             <th>No</th>
             <th>Nama</th>
             <th>Alamat</th>
             <th>No Telp</th>
-            <th>#</th>
+            <th>Aksi</th>
         </tr>
     </thead>
     <tbody>

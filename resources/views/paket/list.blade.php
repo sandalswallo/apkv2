@@ -6,7 +6,7 @@
 
 <!-- Main Content goes here -->
 
-<a href="{{ route('paket.create') }}" class="btn btn-primary mb-3" style="background-color: #7e6100ef; color: white;">Paket Baru</a>
+<a href="{{ route('paket.create') }}" class="btn btn-primary mb-3" style="background-color: #0084ffef; color: white;">Paket Baru</a>
 
 @if (session('message'))
 <div class="alert alert-success">
@@ -16,13 +16,13 @@
 
 <table class="table table-bordered table-stripped">
     <thead>
-        <tr style="background-color: #7e6100ef; color: white;">
+        <tr style="background-color: #0084ffef; color: white;">
             <th>No</th>
             <th>Nama Paket</th>
             <th>Outlet</th>
             <th>Jenis</th>
             <th>Harga</th>
-            <th>#</th>
+            <th>Aksi</th>
         </tr>
     </thead>
     <tbody>

@@ -32,8 +32,19 @@
                 @enderror
             </div>
 
+
+
             <div class="form-group">
-                <label for="jenis_kelamin">Jenis Kelamin</label>
+                <div class="my-1">
+                    <label class="mb-2" for="jenis_kelamin">Jenis Kelamin</label>
+                    
+                    <select name="jenis_kelamin" id="jenis_kelamin" value="{{ old('jenis_kelamin')}}" class="form-control">
+                        <option selected>Pilih...</option>
+                        <option value="Laki-laki"> Laki-Laki</option>
+                        <option value="Perempuan"> Perempuan</option>
+                    
+                </div>
+                {{-- <label for="jenis_kelamin">Jenis Kelamin</label>
                 <select class="form-select form-control @error('jenis_kelamin') is-invalid @enderror" name="jenis_kelamin" id="jenis_kelamin"
                     placeholder="Jenis Kelamin" autocomplete="off" value="{{ old('jenis_kelamin') }}">
 
@@ -51,7 +62,7 @@
                     <option selected name="jenis_kelamin">jenis kelamin</option>
                     <option value="L">Laki Laki</option>
                     <option value="P">Perempuan</option>
-                    @endif
+                    @endif --}}
                     
 
                     <select>
