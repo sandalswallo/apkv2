@@ -53,7 +53,7 @@ class MemberController extends Controller
             'nama' => 'required',
             'alamat' => 'required',
             'jenis_kelamin' => 'required',
-            'tlp' => 'required'
+            'tlp' => 'required|numeric',
 
         ]);
 

@@ -66,7 +66,7 @@
             <td>
                 <div class="d-flex">
                     <a href="{{ route('transaksi.edit', $trx->id) }}" class="btn mr-2 rounded-circle py-2"
-                        style="background-color: rgb(255, 255, 0);"><i class="fas fa-fw fa-pen text-white"></i></a>
+                        style="background-color: rgb(255, 255, 0);"><i class="fa fa-edit"></i></a>
                     <form action="{{ route('transaksi.destroy', $trx->id) }}" method="post">
                         @csrf
                         @method('delete')
